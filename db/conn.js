@@ -1,9 +1,9 @@
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize('gabriel', 'postgres', 'ef9f61827a9f6ed3d93e21a7673b29a1', {
+const sequelize = new Sequelize('database', 'username', 'senha', {
   dialect: 'postgres',
-  host: '189.126.105.68',
-  port: '706',
+  host: 'ip',
+  port: 'port'
 })
 
 try {
